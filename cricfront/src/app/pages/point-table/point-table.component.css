@@ -1,0 +1,19 @@
+/* Add any custom styles if needed */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  background-color: #f9fafb;
+}
+
+tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+/* Highlight top 4 teams */
+tr.highlight {
+  background-color: #eff6ff;
+}

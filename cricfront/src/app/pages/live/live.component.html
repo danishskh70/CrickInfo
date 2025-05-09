@@ -1,0 +1,125 @@
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+      <div class="flex flex-col lg:flex-row gap-8">
+          <!-- Live Match Section -->
+          <div class="lg:w-2/3">
+              <h1 class="text-2xl font-bold text-gray-800 mb-6">Live Cricket Matches</h1>
+              
+              <!-- Video Placeholder -->
+              <div class="video-placeholder rounded-lg shadow-xl overflow-hidden mb-6">
+                  <div class="aspect-w-16 aspect-h-9 relative">
+                      <div class="w-full h-96 flex flex-col items-center justify-center text-white">
+                          <i class="fas fa-tv text-6xl mb-4 text-gray-400"></i>
+                          <h2 class="text-2xl font-bold mb-2">No Live Streaming Available</h2>
+                          <p class="text-gray-300 mb-6">There are no matches being streamed at this moment</p>
+                          <div class="flex space-x-4">
+                              <button class="bg-amber-500 hover:bg-amber-600 text-white px-6 py-2 rounded-lg font-medium transition">
+                                  <i class="fas fa-calendar-alt mr-2"></i>Upcoming Matches
+                              </button>
+                              <button class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition">
+                                  <i class="fas fa-bell mr-2"></i>Notify Me
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Match Info Card -->
+              <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                  <div class="flex justify-between items-center mb-4">
+                      <h3 class="text-xl font-bold text-gray-800">Next Scheduled Match</h3>
+                      <span class="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">
+                          Starts in 2 days
+                      </span>
+                  </div>
+                  <div class="flex flex-col sm:flex-row justify-between items-center">
+                      <div class="flex items-center mb-4 sm:mb-0">
+                          <img src="https://cdn.countryflags.com/thumbs/india/flag-400.png" alt="India" class="w-12 h-12 mr-4">
+                          <span class="text-lg font-semibold">India</span>
+                      </div>
+                      <div class="text-center mb-4 sm:mb-0">
+                          <div class="text-sm text-gray-500">ICC World Cup 2023</div>
+                          <div class="text-lg font-bold">vs</div>
+                          <div class="text-sm text-gray-500">Oct 29, 3:30 PM IST</div>
+                      </div>
+                      <div class="flex items-center">
+                          <img src="https://cdn.countryflags.com/thumbs/england/flag-400.png" alt="England" class="w-12 h-12 mr-4">
+                          <span class="text-lg font-semibold">England</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Upcoming Matches Sidebar -->
+          <div class="lg:w-1/3">
+              <div class="bg-white rounded-lg shadow-md p-6 sticky top-4">
+                  <h2 class="text-xl font-bold text-gray-800 mb-6 border-b pb-2">Upcoming Matches</h2>
+                  
+                  <div class="space-y-4">
+                      <!-- Match 1 -->
+                      <div class="border-b pb-4">
+                          <div class="flex justify-between items-center mb-2">
+                              <span class="text-sm font-medium text-gray-500">Tomorrow, 10:00 AM</span>
+                              <span class="bg-amber-100 text-amber-800 text-xs px-2 py-1 rounded">T20</span>
+                          </div>
+                          <div class="flex items-center justify-between">
+                              <div class="flex items-center">
+                                  <img src="https://cdn.countryflags.com/thumbs/australia/flag-400.png" alt="Australia" class="w-8 h-8 mr-2">
+                                  <span>Australia</span>
+                              </div>
+                              <span class="font-bold text-gray-700">vs</span>
+                              <div class="flex items-center">
+                                  <img src="https://cdn.countryflags.com/thumbs/new-zealand/flag-400.png" alt="New Zealand" class="w-8 h-8 mr-2">
+                                  <span>New Zealand</span>
+                              </div>
+                          </div>
+                      </div>
+
+                      <!-- Match 2 -->
+                      <div class="border-b pb-4">
+                          <div class="flex justify-between items-center mb-2">
+                              <span class="text-sm font-medium text-gray-500">Oct 28, 2:00 PM</span>
+                              <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">ODI</span>
+                          </div>
+                          <div class="flex items-center justify-between">
+                              <div class="flex items-center">
+                                  <img src="https://cdn.countryflags.com/thumbs/pakistan/flag-400.png" alt="Pakistan" class="w-8 h-8 mr-2">
+                                  <span>Pakistan</span>
+                              </div>
+                              <span class="font-bold text-gray-700">vs</span>
+                              <div class="flex items-center">
+                                  <img src="https://cdn.countryflags.com/thumbs/south-africa/flag-400.png" alt="South Africa" class="w-8 h-8 mr-2">
+                                  <span>South Africa</span>
+                              </div>
+                          </div>
+                      </div>
+
+                      <!-- Match 3 -->
+                      <div class="border-b pb-4">
+                          <div class="flex justify-between items-center mb-2">
+                              <span class="text-sm font-medium text-gray-500">Oct 30, 10:30 AM</span>
+                              <span class="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Test</span>
+                          </div>
+                          <div class="flex items-center justify-between">
+                              <div class="flex items-center">
+                                  <img src="https://cdn.countryflags.com/thumbs/england/flag-400.png" alt="England" class="w-8 h-8 mr-2">
+                                  <span>England</span>
+                              </div>
+                              <span class="font-bold text-gray-700">vs</span>
+                              <div class="flex items-center">
+                                  <img src="https://cdn.countryflags.com/thumbs/west-indies/flag-400.png" alt="West Indies" class="w-8 h-8 mr-2">
+                                  <span>West Indies</span>
+                              </div>
+                          </div>
+                      </div>
+
+                      <!-- View All Button -->
+                      <button class="w-full bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium py-2 rounded-lg transition flex items-center justify-center">
+                          <i class="fas fa-list-ul mr-2"></i> View All Matches
+                      </button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </main>
+

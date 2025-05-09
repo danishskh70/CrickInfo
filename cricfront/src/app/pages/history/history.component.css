@@ -1,0 +1,24 @@
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -38px;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #3b82f6;
+  border: 4px solid #bfdbfe;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background: #bfdbfe;
+}
+.trophy-icon {
+  color: #f59e0b;
+  text-shadow: 0 0 8px rgba(245, 158, 11, 0.5);
+}
